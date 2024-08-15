@@ -1,1 +1,30 @@
 /* Styles */
+body {
+    background-color: #e0dfce;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+main {
+    line-height: 1.5;
+    width: 75%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
