@@ -1,4 +1,8 @@
 /* Styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #e0dfce;
     text-align: center;
@@ -12,13 +16,26 @@ h1 {
 main {
     line-height: 1.5;
     width: 75%;
-    margin: auto;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 50px; 
 }
 
-a {
+.recipes-list > li > a {
     text-decoration: none;
-    color: blue;
-    display: block;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recipes-list > li > a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.6s;
 }
 
 ul, ol {
