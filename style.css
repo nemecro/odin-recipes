@@ -51,3 +51,36 @@ img {
     display: block;
     margin: auto;
 }
+
+.text-container {
+    width: 480px;
+    margin: auto;
+}
+
+.text-container > ol > li {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px;
+}
+
+header {
+    margin: auto;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+footer {
+    margin: auto;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+footer > a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
