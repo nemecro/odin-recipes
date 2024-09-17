@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: #e0dfce;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -14,12 +13,18 @@ h1 {
 }
 
 main {
+    background-color: #e0dfce;
     line-height: 1.5;
     width: 75%;
     margin: 10px auto;
     border: 2px solid black;
     border-radius: 12px;
     padding: 50px; 
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 6px;
 }
 
 .recipes-list > li > a {
